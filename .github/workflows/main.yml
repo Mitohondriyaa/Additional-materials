@@ -1,0 +1,8 @@
+name: Main Workflow
+on: workflow_dispatch
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print
+        run: echo Hello DevOps!
