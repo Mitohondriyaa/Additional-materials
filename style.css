@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    margin: 1rem 0;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+h2 {
+    margin: 0.7rem 0;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+h3 {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+ul {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+    list-style-type: disc;
+}
+
+ul li {
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: #000;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #555;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #888;
+}
+
+.def-div {
+    padding-left: 1.5rem;
+}
+
+li.site a::before {
+    content: '🌐 ';
+    display: inline-block;
+    margin-right: 0.3rem;
+}
+
+li.article a::before {
+    content: '📚 ';
+    display: inline-block;
+    margin-right: 0.3rem;
+}
+
+li.video a::before {
+    content: '🎬 ';
+    display: inline-block;
+    margin-right: 0.3rem;
+}
+
+li.playlist a::before {
+    content: '📂 ';
+    display: inline-block;
+    margin-right: 0.3rem;
+}
+
+li.reference a::before {
+    content: '📖 ';
+    display: inline-block;
+    margin-right: 0.3rem;
+} 
